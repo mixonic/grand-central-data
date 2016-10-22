@@ -1,0 +1,27 @@
+{
+  "stages": [
+    "planned",
+    "in progress",
+    "complete"
+  ],
+  "initiatives": {
+    "Glimmer2": {
+      "status": "in progress",
+      "tag": "Glimmer"
+    },
+    "Module Unification": {
+      "status": "in progress",
+      "tag": "module-unification"
+    },
+    "factoryFor": {
+      "status": "in progress",
+      "tag": "factoryFor"
+    }
+  },
+  "repos": {
+    "rfc": "emberjs/rfcs",
+    "emberjs": "emberjs/rfcs",
+    "ember-data": "emberjs/data",
+    "ember-cli": "ember-cli"
+  }
+}
