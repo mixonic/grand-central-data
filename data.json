@@ -1,23 +1,41 @@
 {
   "stages": [
-    "planned",
-    "in progress",
-    "complete"
-  ],
-  "initiatives": {
-    "Glimmer2": {
-      "status": "in progress",
-      "tag": "Glimmer"
+    {
+      "key": "planned"
     },
-    "Module Unification": {
-      "status": "in progress",
-      "tag": "module-unification"
+    {
+      "key": "active"
     },
-    "factoryFor": {
-      "status": "in progress",
-      "tag": "factoryFor"
+    {
+      "key": "feature-flag"
+    },
+    {
+      "key": "beta"
+    },
+    {
+      "key": "stable"
     }
-  },
+  ],
+  "initiatives": [
+    {
+      "name": "Glimmer2",
+      "status": "beta",
+      "tag": "Glimmer",
+      "repos": ["rfc", "emberjs"]
+    },
+    {
+      "name": "Module Unification",
+      "status": "active",
+      "tag": "module-unification",
+      "repos": ["rfc", "ember-data", "emberjs"]
+    },
+    {
+      "name": "factoryFor",
+      "status": "active",
+      "tag": "factoryFor",
+      "repos": ["rfc", "emberjs"]
+    }
+  ],
   "repos": {
     "rfc": "emberjs/rfcs",
     "emberjs": "emberjs/rfcs",
